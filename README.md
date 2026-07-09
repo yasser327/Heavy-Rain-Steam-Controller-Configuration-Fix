@@ -6,6 +6,8 @@ This repository provides a fix for the "Load Steam Controller Configuration File
 When launching the game, you might encounter a warning window stating: 
 `Load Steam Controller Configuration File Failed. 1. Make sure this account has been registered to controller which you want to use...`
 
+![Heavy Rain Controller Error](image_d2c49c.png)
+
 This happens because the default controller configuration file uses incorrect syntax and is missing button mappings (like the "Back" button), preventing the API from properly reading your controller.
 
 ## The Solution
